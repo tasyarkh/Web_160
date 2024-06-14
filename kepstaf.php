@@ -43,148 +43,148 @@
 
             <ul class="grid-list">
 
-                <li>
+            <li>
 
-                <div class="service-card">
+    <div class="service-card">
 
-                    <div style="display: flex;justify-content: center;align-items: center;">
-                    <img src="./assets/images/kepsek.jpg" width="100" height="100">
-                    </div>
+        <div style="display: flex;justify-content: center;align-items: center;">
+        <img src="./assets/images/kepsek.jpg" width="143" height="143">
+        </div>
 
-                    <h3 class="h4 card-title">Sadono</h3>
+        <h3 class="h4 card-title">Sadono M.Pd</h3>
 
-                    <p class="card-text">
-                    Kepala Sekolah
-                    </p>
+        <p class="card-text">
+        Kepala Sekolah
+        </p>
 
+    </div>
+
+    </li>
+
+    <li>
+
+      <div class="service-card">
+
+          <div style="display: flex;justify-content: center;align-items: center;">
+          <img src="./assets/images/BuLungu.jpg" width="100" height="100">
+          </div>
+
+          <h3 class="h4 card-title">Ibu Lungu S.Pd</h3>
+
+          <p class="card-text">
+          Guru IPS
+          </p>
+
+      </div>
+
+      </li>
+
+      <li>
+
+    <div class="service-card">
+
+        <div style="display: flex;justify-content: center;align-items: center;">
+        <img src="./assets/images/PakVeri.jpg" width="80" height="75">
+        </div>
+
+        <h3 class="h4 card-title">Pak Veri S.Pd</h3>
+
+        <p class="card-text">
+        Guru MTK
+        </p>
+
+    </div>
+
+    </li>
+
+    <li>
+
+      <div class="service-card">
+
+          <div style="display: flex;justify-content: center;align-items: center;">
+          <img src="./assets/images/PakManoviyadi.jpg" width="80" height="75">
+          </div>
+
+          <h3 class="h4 card-title">Pak Manoviyadi S.Pd</h3>
+
+          <p class="card-text">
+          Guru PJOK
+          </p>
+
+      </div>  
+
+      </li>
+
+      <li>
+        <div class="service-card">
+
+            <div style="display: flex;justify-content: center;align-items: center;">
+            <img src="./assets/images/PakSenianto.jpg" width="80" height="75">
+            </div>
+
+            <h3 class="h4 card-title">Pak Senianto S.Pd</h3>
+
+            <p class="card-text">
+            Guru PPKN
+            </p>
+
+        </div>
+
+        </li>
+
+        <li>
+
+          <div class="service-card">
+
+              <div style="display: flex;justify-content: center;align-items: center;">
+              <img src="./assets/images/bambang.jpg" width="80" height="85">
+              </div>
+
+              <h3 class="h4 card-title">Pak Bambang S.Pd</h3>
+
+              <p class="card-text">
+              Guru TIK
+              </p>
+
+          </div>
+
+          </li>
+
+          <li>
+
+            <div class="service-card">
+
+                <div style="display: flex;justify-content: center;align-items: center;">
+                <img src="./assets/images/sri.jpg" width="80" height="55">
                 </div>
 
-                </li>
+                <h3 class="h4 card-title">Ibu Sri S.Pdi</h3>
 
-                <li>
+                <p class="card-text">
+                Guru Agama
+                </p>
 
-                  <div class="service-card">
-  
-                      <div style="display: flex;justify-content: center;align-items: center;">
-                      <img src="./assets/images/kepsek.jpg" width="100" height="100">
-                      </div>
-  
-                      <h3 class="h4 card-title">Sadono</h3>
-  
-                      <p class="card-text">
-                      Kepala Sekolah
-                      </p>
+            </div>
 
+            </li>
+
+            <li>
+
+              <div class="service-card">
+
+                  <div style="display: flex;justify-content: center;align-items: center;">
+                  <img src="./assets/images/Junaidi.jpg" width="80" height="75">
                   </div>
 
-                  </li>
+                  <h3 class="h4 card-title">Bapak Junaidi S.Pd</h3>
 
-                  <li>
+                  <p class="card-text">
+                  Guru BK
+                  </p>
 
-                    <div class="service-card">
-    
-                        <div style="display: flex;justify-content: center;align-items: center;">
-                        <img src="./assets/images/kepsek.jpg" width="100" height="100">
-                        </div>
-    
-                        <h3 class="h4 card-title">Sadono</h3>
-    
-                        <p class="card-text">
-                        Kepala Sekolah
-                        </p>
+              </div>
 
-                    </div>
-
-                    </li>
-
-                    <li>
-
-                      <div class="service-card">
-      
-                          <div style="display: flex;justify-content: center;align-items: center;">
-                          <img src="./assets/images/kepsek.jpg" width="100" height="100">
-                          </div>
-      
-                          <h3 class="h4 card-title">Sadono</h3>
-      
-                          <p class="card-text">
-                          Kepala Sekolah
-                          </p>
-
-                      </div>
-
-                      </li>
-
-                      <li>
-                        <div class="service-card">
-        
-                            <div style="display: flex;justify-content: center;align-items: center;">
-                            <img src="./assets/images/kepsek.jpg" width="100" height="100">
-                            </div>
-        
-                            <h3 class="h4 card-title">Sadono</h3>
-        
-                            <p class="card-text">
-                            Kepala Sekolah
-                            </p>
-
-                        </div>
-
-                        </li>
-
-                        <li>
-
-                          <div class="service-card">
-          
-                              <div style="display: flex;justify-content: center;align-items: center;">
-                              <img src="./assets/images/kepsek.jpg" width="100" height="100">
-                              </div>
-          
-                              <h3 class="h4 card-title">Sadono</h3>
-          
-                              <p class="card-text">
-                              Kepala Sekolah
-                              </p>
-
-                          </div>
-
-                          </li>
-
-                          <li>
-
-                            <div class="service-card">
-            
-                                <div style="display: flex;justify-content: center;align-items: center;">
-                                <img src="./assets/images/kepsek.jpg" width="100" height="100">
-                                </div>
-            
-                                <h3 class="h4 card-title">Sadono</h3>
-            
-                                <p class="card-text">
-                                Kepala Sekolah
-                                </p>
-
-                            </div>
-
-                            </li>
-
-                            <li>
-
-                              <div class="service-card">
-              
-                                  <div style="display: flex;justify-content: center;align-items: center;">
-                                  <img src="./assets/images/kepsek.jpg" width="100" height="100">
-                                  </div>
-              
-                                  <h3 class="h4 card-title">Sadono</h3>
-              
-                                  <p class="card-text">
-                                  Kepala Sekolah
-                                  </p>
-
-                              </div>
-
-                              </li>
+              </li>
 
             </ul>
           </div>

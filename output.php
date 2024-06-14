@@ -59,6 +59,12 @@ $pesan=$_POST['pesan'];
                 </tr>
             </table>
 
+            <div class="btn-wrapper">
+
+              <a href="kontak.php" class="btn btn-primary">Kembali</a>
+
+            </div>
+
         </div>
       </section>
     </body>

@@ -42,7 +42,7 @@
 
         <ul class="grid-list">
 
-            <li>
+        <li>
             <div class="service-card">
 
                 <div style="display: flex;justify-content: center;align-items: center;">
@@ -56,9 +56,9 @@
               <div class="service-card">
   
                   <div style="display: flex;justify-content: center;align-items: center;">
-                  <img src="./assets/images/kepsek.jpg" width="230" height="230">
+                  <img src="./assets/images/kegiatanmpls.jpg" width="173" height="173">
                   </div>
-                  <h3 class="h4 card-title">Sadono</h3>
+                  <h3 class="h4 card-title">Kegiatan MPLS</h3>
               </div>
               </li>
 
@@ -66,9 +66,9 @@
                 <div class="service-card">
     
                     <div style="display: flex;justify-content: center;align-items: center;">
-                    <img src="./assets/images/kepsek.jpg" width="230" height="230">
+                    <img src="./assets/images/memperingatihariguru.jpg" width="147" height="147">
                     </div>
-                    <h3 class="h4 card-title">Sadono</h3>
+                    <h3 class="h4 card-title">Kegiatan Memperingati Hari Guru</h3>
                 </div>
                 </li>
 
@@ -76,9 +76,9 @@
                   <div class="service-card">
       
                       <div style="display: flex;justify-content: center;align-items: center;">
-                      <img src="./assets/images/kepsek.jpg" width="230" height="230">
+                      <img src="./assets/images/memperingatiharikemerdekaan.jpg" width="147" height="147">
                       </div>
-                      <h3 class="h4 card-title">Sadono</h3>
+                      <h3 class="h4 card-title">Memperingati Hari Kemerdekaan</h3>
                   </div>
                   </li>
         </ul>

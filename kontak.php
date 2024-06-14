@@ -67,7 +67,7 @@
                 </p>
         
                 <p class="full"> 
-                  <button type="submit">Kirim</button>
+                  <button type="submit" style="background-color: var(--navot);">Kirim</button>
                 </p>
         
               </form>
