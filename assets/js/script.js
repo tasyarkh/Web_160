@@ -11,6 +11,10 @@ const initSlider = function(currentSlider) {
 
   let currentSlidePos = 0; // def posisi slide aktif, diinisialisasi ke 0.
 
+  const moveSliderItem = function () {
+    sldierContainer.style.transform = `translateX(-${sldierContainer.children[currentSlidePos].offsetLeft}px)`;
+  }
+
   // slide next
   const slideNext = function () { // func berpindah ke slide berikutnya. jika sudah di akhir slide, kembali ke awal.
     const slideEnd = currentSlidePos >= sldierContainer.childElementCount - 1;

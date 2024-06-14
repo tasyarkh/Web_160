@@ -512,7 +512,7 @@ body.nav-active { overflow: hidden; }
 }
 
 .feature-card .card-icon {
-  background-color: var(--abu3);
+  background-color: var(--abu2);
   font-size: 1.4rem;
   padding: 4px;
   border-radius: var(--radius-circle);
