@@ -67,7 +67,7 @@ span {
 }
 
 a {
-  color: var(--abu2); 
+  color: var(--abu3); 
   text-decoration: none; /* menghilangkan garis bwah */
 }
 
@@ -197,19 +197,19 @@ body {
 
 /* grid dengan gap untuk elemen grid-list */
 .grid-list {
-  display: grid;
+  display: grid; /* tata letak baris kol */
   gap: 25px;
 }
 
 
 /* Bagian header */
 
-.header .btn { display: none; }
+.header .btn { display: none; } /* menghilangkan */
 
 .header .btn {
-  display: block;
-  margin-inline-start: auto;
-  padding: 8px 20px;
+  display: block; /* blok one line */
+  margin-inline-start: auto; /* elemen ke kanan */
+  padding: 8px 20px; /* jarak atas bwh & kanan kiri */
 }
 
 .header.active .btn {
@@ -219,38 +219,38 @@ body {
 }
 
 .header {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  padding-block: 20px;
+  position: absolute; /* posisi relatif */
+  top: 0; /* bag atas parent */
+  left: 0; /* sisi kiri parent */
+  width: 100%; /* full width parent */
+  padding-block: 20px; /* jarak atas bawah */
   box-shadow: var(--shadow-1);
-  z-index: 4;
+  z-index: 4; /* tumpukan */
 }
 
 .header .container {
   display: flex;
-  justify-content: space-between;
-  align-items: center;
+  justify-content: space-between; /* jarak ukur sama horizon */
+  align-items: center; /* tengah vertikal */
   gap: 16px;
 }
 
 .navbar {
-  position: fixed;
-  top: 0;
-  left: -300px;
+  position: fixed; /* posisi tetap */
+  top: 0; /* tetap bag atas */
+  left: -300px; /* 300 diluar kiri */
   background-color: var(--black);
   color: var(--white);
   max-width: 300px;
   width: 100%;
   height: 100vh;
   padding: 30px;
-  padding-block-end: 40px;
+  padding-block-end: 40px; /* jarak bawaah */
   display: flex;
-  flex-direction: column;
+  flex-direction: column; /* arah kolom vertikal */
   gap: 30px;
   z-index: 2;
-  visibility: hidden;
+  visibility: hidden; /* elemen tersembunyi */
   transition: var(--transition-3);
 }
 
@@ -514,6 +514,8 @@ body {
 }
 
 .project-card .card-content { padding: 30px; }
+
+.card-title { color: var(--black);}
 
 .project-card .card-title { transition: var(--transition-1); }
 
