@@ -155,7 +155,7 @@
             <div class="service-card">
 
                 <div style="display: flex;justify-content: center;align-items: center;">
-                <img src="./assets/images/sri.jpg" width="80" height="40">
+                <img src="./assets/images/sri.jpg" width="80" height="30">
                 </div>
 
                 <h3 class="h4 card-title">Ibu Sri S.Pdi</h3>

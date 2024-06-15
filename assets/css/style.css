@@ -1,15 +1,16 @@
+/* Global Var */
 :root {
 
   /* var warna */
-  --blue: rgb(131, 180, 255);
-  --white: hsla(0, 0%, 100%, 1);
-  --abu1: hsla(0, 0%, 100%, 0.7);
-  --abu2: hsla(220, 20%, 97%, 1);
-  --abu3: hsla(233, 52%, 94%, 1);
-  --abu3: hsla(220, 12%, 70%, 1);
+  --blue: #83b4ff;
+  --white: #ffffff;
+  --abu1: #ffffffb3;
+  --abu2: #f6f7f9;
+  --abu3: #e8eaf8;
+  --abu3: #a9afbc;
   --charcoal: #1A2130;
-  --black: hsla(216, 14%, 14%, 1);
-  --light-gray: hsla(0, 0%, 79%, 1);
+  --black: #1f2329;
+  --light-gray: #c9c9c9;
   --navot: #5A72A0;
 
   /* var font */
@@ -32,8 +33,8 @@
   --section-padding: 90px;
 
   /* var shadow */
-  --shadow-1: 0 0 20px hsla(216, 14%, 14%, 0.05);
-  --shadow-2: 0 0 0 0.05rem hsla(214, 88%, 27%, 0.08), 0 0 1.25rem hsla(216, 14%, 14%, 0.06);
+  --shadow-1: 0 0 20px #1f23290d;
+  --shadow-2: 0 0 0 0.05rem #083d8114, 0 0 1.25rem #1f23290f;
 
   /* var rounded */
   --radius-circle: 50%;
@@ -49,41 +50,43 @@
 
 }
 
+/* reset css */
+
 *,
 *::before,
 *::after {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+  margin: 0; /* jarak ruang luar */
+  padding: 0; /* jarak ruang dalam */
+  box-sizing: border-box; /* ukuran elemen */
 }
 
-li { list-style: none; }
+li { list-style: none; } /* menghapus tanda bawaan */
 
-a,
-img,
-span,
-input,
-button { display: block; }
+span {
+  display: block; /* full 1 baris  */
+}
 
 a {
-  color: inherit;
-  text-decoration: none;
+  color: var(--abu2); 
+  text-decoration: none; /* menghilangkan garis bwah */
 }
 
-img { height: auto; }
+img { height: auto; } /* tinggi rasio asli gambar */
 
 input,
 button {
-  background: none;
-  border: none;
-  font: inherit;
+  background: none; /* hapus bg */
+  border: none; /* hapus border */
+  font: var(--ff-manrope);
 }
 
 input { width: 100%; }
 
-button { cursor: pointer; }
+button { cursor: pointer; } /* mengubah menjadi bentuk tangan */
 
 address { font-style: normal; }
+
+/* mengatur ukuran font, scroll smooth pada body, mengatur warna bg, warna teks, ukuran font, dan tinggi baris. */
 
 html {
   font-family: var(--ff-manrope);
@@ -95,29 +98,35 @@ body {
   background-color: var(--white);
   color: var(--abu3);
   font-size: 1.6rem;
-  line-height: 1.7;
+  line-height: 1.7; /* jarak text */
 }
 
-.container { padding-inline: 16px; }
+/* Mengatur padding untuk seluruh container*/
 
+.container { padding-inline: 16px; } /* jarak kanan kiri */
+
+/* mengatur dengan flexbox */
 .social-list {
-  display: flex;
+  display: flex; /* posisi flexible */
   align-items: center;
-  gap: 12px;
+  gap: 12px; /*spasi antar item */ 
 }
 
+/* menambahkan styling transisi & ukuran font */
 .social-link {
   font-size: 2rem;
   transition: var(--transition-1);
 }
 
-.section { padding-block: var(--section-padding); }
+.section { padding-block: var(--section-padding); } /* jarak atas bawah */
 
 .has-bg-image {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
 }
+
+/* styling untuk heading (h1 - h5) dengan ukuran dan tebal font yang berbeda */
 
 .h1,
 .h2,
@@ -149,20 +158,29 @@ body {
   transition: var(--transition-1);
 }
 
-.btn:is(:hover) { transform: translateY(-4px); }
+.btn:hover {
+  transform: translateY(-4px); /* geser elemen keatas 4px */
+}
 
-.btn-primary,
-.btn-outline:is(:hover) {
+.btn-primary {
   background-color: var(--white);
   color: var(--charcoal);
 }
 
+.btn-outline:hover {
+  background-color: var(--white);
+  color: var(--charcoal);
+}
+
+
+/* Mengatur img-holder dengan aspek rasio dan warna bg */
 .img-holder {
   aspect-ratio: var(--width) / var(--height);
   background-color: var(--light-gray);
   overflow: hidden;
 }
 
+/*memastikan gambar memenuhi seluruh area*/
 .img-cover {
   width: 100%;
   height: 100%;
@@ -171,12 +189,13 @@ body {
 
 .section-subtitle {
   font-size: var(--fs-7);
-  text-transform: uppercase;
+  text-transform: uppercase; /* huruf kapital */
   color: var(--blue);
   font-weight: var(--fw-700);
-  margin-block-end: 16px;
+  margin-block-end: 16px; /* jarak bawah */
 }
 
+/* grid dengan gap untuk elemen grid-list */
 .grid-list {
   display: grid;
   gap: 25px;
@@ -209,29 +228,12 @@ body {
   z-index: 4;
 }
 
-/* .header.active {
-  background-color: var(--white);
-  position: fixed;
-  animation: slideIn 0.5s ease forwards;
-}
-
-@keyframes slideIn {
-  0% { transform: translateY(-100%); }
-  100% { transform: translateY(0); }
-} */
-
 .header .container {
   display: flex;
   justify-content: space-between;
   align-items: center;
   gap: 16px;
 }
-
-/* .header.active .logo-light,
-.header .logo-dark { display: none; }
-
-.header .logo-light,
-.header.active .logo-dark { display: block; } */
 
 .navbar {
   position: fixed;
@@ -251,11 +253,6 @@ body {
   visibility: hidden;
   transition: var(--transition-3);
 }
-
-/* .navbar.active {
-  visibility: visible;
-  transform: translateX(300px);
-} */
 
 .navbar-list { 
   margin-block-end: auto;
@@ -280,11 +277,6 @@ body {
   }
 
 /* bagian  index hero */
-
-/* .hero {
-  padding-block-start: calc(var(--section-padding) + 70px);
-  text-align: center;
-} */
 
 .hero {
   padding-block-start: calc(var(--section-padding) + 50px);
