@@ -51,7 +51,7 @@
         <img src="./assets/images/kepsek.jpg" width="143" height="143">
         </div>
 
-        <h3 class="h4 card-title">Sadono M.Pd</h3>
+        <h3 class="h4 card-title">Pak Sadono M.Pd</h3>
 
         <p class="card-text">
         Kepala Sekolah
@@ -155,7 +155,7 @@
             <div class="service-card">
 
                 <div style="display: flex;justify-content: center;align-items: center;">
-                <img src="./assets/images/sri.jpg" width="80" height="55">
+                <img src="./assets/images/sri.jpg" width="80" height="40">
                 </div>
 
                 <h3 class="h4 card-title">Ibu Sri S.Pdi</h3>

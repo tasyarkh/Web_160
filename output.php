@@ -58,13 +58,7 @@ $pesan=$_POST['pesan'];
                     <td style="padding-left: 20px;">Pesan</td><td align="center"    ><?php echo $pesan; ?></td>
                 </tr>
             </table>
-
-            <div class="btn-wrapper">
-
-              <a href="kontak.php" class="btn btn-primary">Kembali</a>
-
-            </div>
-
+            <a href="index.php">BACK TO HOME</a>
         </div>
       </section>
     </body>

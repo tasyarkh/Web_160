@@ -63,8 +63,7 @@ a,
 img,
 span,
 input,
-button,
-ion-icon { display: block; }
+button { display: block; }
 
 a {
   color: inherit;
@@ -84,8 +83,6 @@ input { width: 100%; }
 
 button { cursor: pointer; }
 
-ion-icon { pointer-events: none; }
-
 address { font-style: normal; }
 
 html {
@@ -101,8 +98,6 @@ body {
   line-height: 1.7;
 }
 
-body.nav-active { overflow: hidden; }
-
 .container { padding-inline: 16px; }
 
 .social-list {
@@ -115,8 +110,6 @@ body.nav-active { overflow: hidden; }
   font-size: 2rem;
   transition: var(--transition-1);
 }
-
-.social-link:is(:hover, :focus-visible) { transform: translateY(-3px); }
 
 .section { padding-block: var(--section-padding); }
 
@@ -151,17 +144,15 @@ body.nav-active { overflow: hidden; }
   font-size: var(--fs-6);
   font-weight: var(--fw-700);
   border: 2px solid var(--white);
-  max-width: max-content;
   padding: 12px 28px;
   border-radius: var(--radius-pill);
   transition: var(--transition-1);
-  will-change: transform;
 }
 
-.btn:is(:hover, :focus-visible) { transform: translateY(-4px); }
+.btn:is(:hover) { transform: translateY(-4px); }
 
 .btn-primary,
-.btn-outline:is(:hover, :focus-visible) {
+.btn-outline:is(:hover) {
   background-color: var(--white);
   color: var(--charcoal);
 }
@@ -191,15 +182,10 @@ body.nav-active { overflow: hidden; }
   gap: 25px;
 }
 
-.w-100 { width: 100%; }
 
-/*-----------------------------------*\
-  #HEADER
-\*-----------------------------------*/
+/* Bagian header */
 
 .header .btn { display: none; }
-
-.header.active .navbar-link { color: var(--charcoal); }
 
 .header .btn {
   display: block;
@@ -223,7 +209,7 @@ body.nav-active { overflow: hidden; }
   z-index: 4;
 }
 
-.header.active {
+/* .header.active {
   background-color: var(--white);
   position: fixed;
   animation: slideIn 0.5s ease forwards;
@@ -232,7 +218,7 @@ body.nav-active { overflow: hidden; }
 @keyframes slideIn {
   0% { transform: translateY(-100%); }
   100% { transform: translateY(0); }
-}
+} */
 
 .header .container {
   display: flex;
@@ -241,11 +227,11 @@ body.nav-active { overflow: hidden; }
   gap: 16px;
 }
 
-.header.active .logo-light,
+/* .header.active .logo-light,
 .header .logo-dark { display: none; }
 
 .header .logo-light,
-.header.active .logo-dark { display: block; }
+.header.active .logo-dark { display: block; } */
 
 .navbar {
   position: fixed;
@@ -266,10 +252,10 @@ body.nav-active { overflow: hidden; }
   transition: var(--transition-3);
 }
 
-.navbar.active {
+/* .navbar.active {
   visibility: visible;
   transform: translateX(300px);
-}
+} */
 
 .navbar-list { 
   margin-block-end: auto;
@@ -293,14 +279,12 @@ body.nav-active { overflow: hidden; }
     margin-inline: auto 24px;
   }
 
-/*-----------------------------------*\
-  #HERO
-\*-----------------------------------*/
+/* bagian  index hero */
 
-.hero {
+/* .hero {
   padding-block-start: calc(var(--section-padding) + 70px);
   text-align: center;
-}
+} */
 
 .hero {
   padding-block-start: calc(var(--section-padding) + 50px);
@@ -345,15 +329,9 @@ body.nav-active { overflow: hidden; }
   padding: 25px;
   border-radius: var(--radius-circle);
   transition: var(--transition-1);
-  animation: pulse 2s ease infinite;
 }
 
-.hero-card .play-btn:is(:hover, :focus-visible) { color: var(--blue); }
-
-@keyframes pulse {
-  0% { box-shadow: 0 0 0 0 var(--abu1); }
-  75% { box-shadow: 0 0 0 20px transparent; }
-}
+.hero-card .play-btn:is(:hover) { color: var(--blue); }
 
 .hero .slider-inner {
   border-radius: var(--radius-10);
@@ -387,15 +365,13 @@ body.nav-active { overflow: hidden; }
   transition: var(--transition-1);
 }
 
-.hero .slider-btn:is(:hover, :focus-visible) { background-color: var(--white); }
+.hero .slider-btn:is(:hover) { background-color: var(--white); }
 
 .hero .slider-btn.prev { left: 20px; }
 
 .hero .slider-btn.next { right: 20px; }
 
-/*-----------------------------------*\
-  #SERVICE
-\*-----------------------------------*/
+/* kepsek & galeri */
 
 .service { text-align: center; }
 
@@ -421,8 +397,6 @@ body.nav-active { overflow: hidden; }
   margin-inline: auto;
 }
 
-.service-card .card-icon ion-icon { --ionicon-stroke-width: 50px; }
-
 .service-card .card-title { margin-block: 16px 10px; }
 
 .service-card .btn-text {
@@ -436,11 +410,9 @@ body.nav-active { overflow: hidden; }
   transition: var(--transition-1);
 }
 
-.service-card .btn-text:is(:hover, :focus-visible) { opacity: 0.9; }
+.service-card .btn-text:is(:hover) { opacity: 0.9; }
 
-/*-----------------------------------*\
-  #ABOUT
-\*-----------------------------------*/
+/* bagian about index */
 
 .about .container {
   display: grid;
@@ -459,19 +431,13 @@ body.nav-active { overflow: hidden; }
   gap: 10px;
 }
 
-.accordion-btn ion-icon {
-  font-size: 1.5rem;
-  color: var(--blue);
-  transition: var(--transition-1);
-}
-
-.accordion-card.expanded .accordion-btn ion-icon {
+.accordion-card.expanded .accordion-btn i {
   transform: rotate(0.5turn);
 }
 
 .accordion-btn .span { transition: var(--transition-1); }
 
-.accordion-btn:is(:hover, :focus-visible) .span,
+.accordion-btn:is(:hover) .span,
 .accordion-card.expanded .accordion-btn .span { color: var(--blue); }
 
 .accordion-content {
@@ -485,9 +451,7 @@ body.nav-active { overflow: hidden; }
   padding-block-end: 20px;
 }
 
-/*-----------------------------------*\
-  #FEATURES
-\*-----------------------------------*/
+/* bagian vismis */
 
 .feature-banner { order: 1; }
 
@@ -515,16 +479,10 @@ body.nav-active { overflow: hidden; }
   background-color: var(--abu2);
   font-size: 1.4rem;
   padding: 4px;
-  border-radius: var(--radius-circle);
+  border-radius: var(--radius-6);
 }
 
-.feature-card .card-icon ion-icon { --ionicon-stroke-width: 40px; }
-
-/*-----------------------------------*\
-  #STATS
-\*-----------------------------------*/
-
-.stats { background-image: linear-gradient(to bottom, var(--white) 50%, var(--abu2) 50%); }
+/* bagian info index */
 
 .stats-card {
   display: grid;
@@ -539,9 +497,7 @@ body.nav-active { overflow: hidden; }
 
 .stats-card .card-text > * { color: var(--white); }
 
-/*-----------------------------------*\
-  #PROJECT
-\*-----------------------------------*/
+/* bagian berita */
 
 .container {
   max-width: 540px;
@@ -569,7 +525,7 @@ body.nav-active { overflow: hidden; }
 
 .project-card .card-title { transition: var(--transition-1); }
 
-.project-card .card-title:is(:hover, :focus-visible) { color: var(--blue); }
+.project-card .card-title:is(:hover) { color: var(--blue); }
 
 .project-card .card-text { margin-block: 16px 20px; }
 
@@ -587,10 +543,7 @@ body.nav-active { overflow: hidden; }
   font-size: var(--fs-8);
 }
 
-
-/*-----------------------------------*\
-  #FOOTER
-\*-----------------------------------*/
+/* bagian footer */
 
 .footer {
   background-color: var(--charcoal);
@@ -612,7 +565,7 @@ body.nav-active { overflow: hidden; }
   transition: var(--transition-1);
 }
 
-.footer-link:is(:hover, :focus-visible) { color: var(--blue); }
+.footer-link:is(:hover) { color: var(--blue); }
 
 .footer .grid-list { grid-template-columns: repeat(4, 1fr); }
 
