@@ -255,7 +255,7 @@ body {
 }
 
 .navbar-list { 
-  margin-block-end: auto;
+  margin-block-end: auto; 
   display: flex;
   gap: 30px;
 }
@@ -267,26 +267,25 @@ body {
   transition: var(--transition-1);
 }
 
-.navbar-link:is(:hover, :focus-visible) { opacity: 0.7; }
+.navbar-link:hover { opacity: 0.7; } /* kenyataan */
 
-.navbar,
-  .navbar.active {
-    all: unset;
+.navbar {
+    all: unset;  /* nilai default */
     display: block;
     margin-inline: auto 24px;
-  }
+  } 
 
 /* bagian  index hero */
 
 .hero {
-  padding-block-start: calc(var(--section-padding) + 50px);
+  padding-top: calc(var(--section-padding) + 50px); /* jarak atas */
   text-align: left;
 }
 
 .hero .container {
   display: grid;
   gap: 70px;
-  grid-template-columns: 1fr 0.8fr;
+  grid-template-columns: 1fr 0.8fr; /* lebar kol 1 & kol 2 fraksi */
   align-items: center;
 }
 
@@ -300,8 +299,7 @@ body {
 
 .btn-wrapper {
   display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
+  flex-wrap: wrap; /* buat baris baru jika penuh */
   align-items: center;
   gap: 12px;
   justify-content: flex-start;
@@ -323,9 +321,9 @@ body {
   transition: var(--transition-1);
 }
 
-.hero-card .play-btn:is(:hover) { color: var(--blue); }
+.play-btn:hover { color: var(--blue); }
 
-.hero .slider-inner {
+.slider-inner {
   border-radius: var(--radius-10);
   overflow: hidden;
 }
@@ -357,7 +355,7 @@ body {
   transition: var(--transition-1);
 }
 
-.hero .slider-btn:is(:hover) { background-color: var(--white); }
+.hero .slider-btn:hover { background-color: var(--white); }
 
 .hero .slider-btn.prev { left: 20px; }
 
@@ -369,7 +367,7 @@ body {
 
 .service .section-title { margin-block-end: 50px; }
 
-.service .grid-list { grid-template-columns: repeat(4, 1fr); }
+.service .grid-list { grid-template-columns: repeat(4, 1fr); } /* 4 kol dgn lebar 1fr */
 
 .service-card {
   padding: 40px;
@@ -377,7 +375,7 @@ body {
   border-radius: var(--radius-6);
 }
 
-.service-card .card-icon {
+/* .service-card .card-icon {
   width: 60px;
   height: 60px;
   background-color: var(--blue);
@@ -387,11 +385,11 @@ body {
   font-size: 2.5rem;
   border-radius: var(--radius-circle);
   margin-inline: auto;
-}
+} */
 
 .service-card .card-title { margin-block: 16px 10px; }
 
-.service-card .btn-text {
+/* .service-card .btn-text {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -400,9 +398,9 @@ body {
   color: var(--blue);
   font-weight: var(--fw-700);
   transition: var(--transition-1);
-}
+} */
 
-.service-card .btn-text:is(:hover) { opacity: 0.9; }
+/* .service-card .btn-text:is(:hover) { opacity: 0.9; } */
 
 /* bagian about index */
 
@@ -424,12 +422,12 @@ body {
 }
 
 .accordion-card.expanded .accordion-btn i {
-  transform: rotate(0.5turn);
+  transform: rotate(0.5turn); /* 180 drj atau setengah putaran */
 }
 
 .accordion-btn .span { transition: var(--transition-1); }
 
-.accordion-btn:is(:hover) .span,
+.accordion-btn:hover .span,
 .accordion-card.expanded .accordion-btn .span { color: var(--blue); }
 
 .accordion-content {
@@ -445,7 +443,7 @@ body {
 
 /* bagian vismis */
 
-.feature-banner { order: 1; }
+.feature-banner { order: 1; } /* urutan elemen */
 
 .feature .container {
   display: grid;
@@ -487,7 +485,7 @@ body {
 
 .stats-card { grid-template-columns: repeat(4, 1fr); }
 
-.stats-card .card-text > * { color: var(--white); }
+.card-text * { color: var(--white); }
 
 /* bagian berita */
 
@@ -501,7 +499,11 @@ body {
 
 .project .grid-list { grid-template-columns: repeat(3, 1fr); }
 
-.project :is(.section-subtitle, .section-title) { text-align: center; }
+.project .section-subtitle,
+.project .section-title {
+  text-align: center;
+}
+
 
 .project .section-title { margin-block-end: 50px; }
 
@@ -519,7 +521,7 @@ body {
 
 .project-card .card-title { transition: var(--transition-1); }
 
-.project-card .card-title:is(:hover) { color: var(--blue); }
+.project-card .card-title:hover { color: var(--blue); }
 
 .project-card .card-text { margin-block: 16px 20px; }
 
@@ -559,7 +561,7 @@ body {
   transition: var(--transition-1);
 }
 
-.footer-link:is(:hover) { color: var(--blue); }
+.footer-link:hover { color: var(--blue); }
 
 .footer .grid-list { grid-template-columns: repeat(4, 1fr); }
 

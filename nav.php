@@ -14,6 +14,7 @@
 </head>
 
 <body>
+<!-- membuat arr asosiatif -->
 <?php
 $menuItems = [
   "Home" => "index.php",
@@ -24,9 +25,10 @@ $menuItems = [
 ?>
 <nav class="navbar" data-navbar>
   <ul class="navbar-list">
+    <!-- loop iterasi arr -->
     <?php
-    foreach ($menuItems as $name => $url) {
-      echo "<li><a href='$url' class='navbar-link'>$name</a></li>";
+    foreach ($menuItems as $name => $url) { //menyimpan key name value url
+      echo "<li><a href='$url' class='navbar-link'>$name</a></li>"; // menyimpan var name -> HTML nav
     }
     ?>
   </ul>
