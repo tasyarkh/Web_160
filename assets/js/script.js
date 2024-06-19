@@ -47,7 +47,7 @@ const initSlider = function(currentSlider) {
   sliderPrevBtn.addEventListener("click", slidePrev); // event listener ke tombol prev, ketika diklik, panggil fungsi slideprev.
 }
 
-for (let i = 0, len = sliders.length; i < len; i++) { initSlider(sliders[i]); }
+for (let i = 0, len = sliders.length; i < len; i++) { initSlider(sliders[i]); } // iterasi elemen yang memiliki atribut data-slider dan menginisialisasi masing-masing menggunakan fungsi initSlider.
 
 
 // tentang kami
