@@ -15,7 +15,7 @@
 
 <body>
 
-  <header class="header" data-header style="background-color: var(--navot);">
+  <header class="header" data-header style="background-color: var(--navot); position: fixed;">
 
     <div class="container" >
 
@@ -39,7 +39,7 @@
 
           <div class="feature-content">
 
-            <p class="section-subtitle" id="feautre-label">Apa Visi & Misi Kami ?</p>
+            <p class="section-subtitle" id="feautre-label" style="padding-top: 35px;">Apa Visi & Misi Kami ?</p>
 
             <!-- bagian visi -->
             <h2 class="h2 section-title">
@@ -123,7 +123,7 @@
           <!-- bagian misi -->
           <div class="feature-content">
             
-            <h2 class="h2 section-title">
+            <h2 class="h2 section-title" style="padding-top: 50px;">
               Misi
             </h2>
 

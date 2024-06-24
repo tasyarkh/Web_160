@@ -14,7 +14,7 @@
 </head>
 <body>
 
-  <header class="header" data-header style="background-color: var(--navot);">
+  <header class="header" data-header style="background-color: var(--navot); position: fixed;">
     <div class="container" >
 
       <a href="#" class="logo">
@@ -35,7 +35,7 @@
         <section class="section service">
             <div class="container">
 
-            <p class="section-subtitle" id="service-label">Berkenalan</p>
+            <p class="section-subtitle" id="service-label" style="padding-top: 35px;">Berkenalan</p>
 
             <h2 class="h2 section-title">
                 Kepala Sekolah & Guru/Staff
@@ -47,7 +47,7 @@
 
     <div class="service-card">
 
-        <div style="display: flex;justify-content: center;align-items: center;">
+        <div style="display: flex;justify-content: center;align-items: center;" class="staf">
         <img src="./assets/images/kepsek.jpg" width="143" height="143">
         </div>
 
@@ -65,7 +65,7 @@
 
       <div class="service-card">
 
-          <div style="display: flex;justify-content: center;align-items: center;">
+          <div style="display: flex;justify-content: center;align-items: center;" class="staf">
           <img src="./assets/images/BuLungu.jpg" width="100" height="100">
           </div>
 
@@ -83,7 +83,7 @@
 
     <div class="service-card">
 
-        <div style="display: flex;justify-content: center;align-items: center;">
+        <div style="display: flex;justify-content: center;align-items: center;" class="staf">
         <img src="./assets/images/PakVeri.jpg" width="80" height="75">
         </div>
 
@@ -101,7 +101,7 @@
 
       <div class="service-card">
 
-          <div style="display: flex;justify-content: center;align-items: center;">
+          <div style="display: flex;justify-content: center;align-items: center;" class="staf">
           <img src="./assets/images/PakManoviyadi.jpg" width="80" height="75">
           </div>
 
@@ -118,7 +118,7 @@
       <li>
         <div class="service-card">
 
-            <div style="display: flex;justify-content: center;align-items: center;">
+            <div style="display: flex;justify-content: center;align-items: center;" class="staf">
             <img src="./assets/images/PakSenianto.jpg" width="80" height="75">
             </div>
 
@@ -136,7 +136,7 @@
 
           <div class="service-card">
 
-              <div style="display: flex;justify-content: center;align-items: center;">
+              <div style="display: flex;justify-content: center;align-items: center;" class="staf">
               <img src="./assets/images/bambang.jpg" width="80" height="85">
               </div>
 
@@ -154,7 +154,7 @@
 
             <div class="service-card">
 
-                <div style="display: flex;justify-content: center;align-items: center;">
+                <div style="display: flex;justify-content: center;align-items: center;" class="staf">
                 <img src="./assets/images/sri.jpg" width="80" height="30">
                 </div>
 
@@ -172,7 +172,7 @@
 
               <div class="service-card">
 
-                  <div style="display: flex;justify-content: center;align-items: center;">
+                  <div style="display: flex;justify-content: center;align-items: center;" class="staf">
                   <img src="./assets/images/Junaidi.jpg" width="80" height="75">
                   </div>
 

@@ -14,7 +14,7 @@
 </head>
 <body>
   
-  <header class="header" data-header>
+  <header class="header active" data-header style="position: fixed;">
 
     <div class="container"> <!-- membuat navbar -->
 
@@ -201,7 +201,7 @@
 
           <ul class="grid-list">
 
-            <li>
+            <li class="nv">
               <div class="project-card"> <!-- berita 1 -->
                
                 <figure class="card-banner img-holder" style="--width: 560; --height: 350;">
@@ -229,7 +229,7 @@
               </div>
             </li>
 
-            <li>
+            <li class="nv">
               <div class="project-card"> <!-- berita 2 -->
 
                 <figure class="card-banner img-holder" style="--width: 560; --height: 350;">
@@ -260,7 +260,7 @@
               </div>
             </li>
 
-            <li>
+            <li class="nv">
               <div class="project-card"> <!-- berita 3 -->
 
                 <figure class="card-banner img-holder" style="--width: 560; --height: 350;">

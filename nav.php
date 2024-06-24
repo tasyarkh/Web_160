@@ -28,7 +28,7 @@ $menuItems = [
     <!-- loop iterasi arr -->
     <?php
     foreach ($menuItems as $name => $url) { //menyimpan key name value url
-      echo "<li><a href='$url' class='navbar-link'>$name</a></li>"; // menyimpan var name -> HTML nav
+      echo "<li class='nv'><a href='$url' class='navbar-link'>$name</a></li>"; // menyimpan var name -> HTML nav
     }
     ?>
   </ul>

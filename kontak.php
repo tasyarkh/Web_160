@@ -14,7 +14,7 @@
 </head>
 <body>
 
-  <header class="header" data-header style="background-color: var(--navot);">
+  <header class="header" data-header style="background-color: var(--navot); position: fixed;">
 
     <div class="container" >
 

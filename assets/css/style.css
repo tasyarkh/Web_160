@@ -180,6 +180,10 @@ body {
   overflow: hidden;
 }
 
+.card-banner:hover {
+  transform: scale(1.08);
+}
+
 /*memastikan gambar memenuhi seluruh area*/
 .img-cover {
   width: 100%;
@@ -212,12 +216,6 @@ body {
   padding: 8px 20px; /* jarak atas bwh & kanan kiri */
 }
 
-.header.active .btn {
-  background-color: var(--blue);
-  border-color: var(--blue);
-  color: var(--white);
-}
-
 .header {
   position: absolute; /* posisi relatif */
   top: 0; /* bag atas parent */
@@ -228,6 +226,12 @@ body {
   z-index: 4; /* tumpukan */
 }
 
+.header.active {
+  background-color: rgba(90, 114, 160, 0.8);
+  color: var(--white);
+  position: fixed;
+}
+
 .header .container {
   display: flex;
   justify-content: space-between; /* jarak ukur sama horizon */
@@ -236,6 +240,7 @@ body {
 }
 
 .navbar { 
+  position: fixed;
   top: 0; /* tetap bag atas */
   left: -300px; /* 300 diluar kiri */
   background-color: var(--black);
@@ -266,9 +271,16 @@ body {
   transition: var(--transition-1);
 }
 
-.navbar-link:hover { opacity: 0.7; } /* kenyataan */
+.navbar-link:hover { 
+  opacity: 0.4; /* kenyataan */
+  transform: scale(1.2)
+ } 
 
-.navbar {
+.nv:hover{
+  transform: translateY(-4px);
+ }
+
+.navbar{
     all: unset;  /* nilai default */
     display: block;
     margin-inline: auto 24px;
@@ -383,6 +395,14 @@ body {
   gap: 50px;
   grid-template-columns: 1fr 0.7fr;
   align-items: center;
+}
+
+.staf img:hover{
+  transform: scale(1.8);
+}
+
+.galeri img:hover{
+  transform: rotate(20deg);
 }
 
 .about .section-title { margin-block-end: 35px; }

@@ -14,7 +14,7 @@
 </head>
 
 <body>
-  <header class="header" data-header style="background-color: var(--navot);">
+  <header class="header" data-header style="background-color: var(--navot); position: fixed;">
     <div class="container" >
 
       <a href="#" class="logo">
@@ -34,7 +34,7 @@
       <section class="section service">
         <div class="container">
 
-        <p class="section-subtitle" id="service-label">Foto Kegiatan Kami</p>
+        <p class="section-subtitle" id="service-label" style="padding-top: 45px;">Foto Kegiatan Kami</p>
 
         <h2 class="h2 section-title">
             Kegiatan Kami
@@ -45,7 +45,7 @@
         <li>
             <div class="service-card">
 
-                <div style="display: flex;justify-content: center;align-items: center;">
+                <div style="display: flex;justify-content: center;align-items: center;" class="galeri">
                 <img src="./assets/images/keg1.jpg" width="230" height="230">
                 </div>
                 <h3 class="h4 card-title">Kegiatan KBM</h3>
@@ -55,7 +55,7 @@
             <li>
               <div class="service-card">
   
-                  <div style="display: flex;justify-content: center;align-items: center;">
+                  <div style="display: flex;justify-content: center;align-items: center;" class="galeri">
                   <img src="./assets/images/kegiatanmpls.jpg" width="173" height="173">
                   </div>
                   <h3 class="h4 card-title">Kegiatan MPLS</h3>
@@ -65,7 +65,7 @@
               <li>
                 <div class="service-card">
     
-                    <div style="display: flex;justify-content: center;align-items: center;">
+                    <div style="display: flex;justify-content: center;align-items: center;" class="galeri">
                     <img src="./assets/images/memperingatihariguru.jpg" width="147" height="147">
                     </div>
                     <h3 class="h4 card-title">Kegiatan Memperingati Hari Guru</h3>
@@ -75,7 +75,7 @@
                 <li>
                   <div class="service-card">
       
-                      <div style="display: flex;justify-content: center;align-items: center;">
+                      <div style="display: flex;justify-content: center;align-items: center;" class="galeri">
                       <img src="./assets/images/memperingatiharikemerdekaan.jpg" width="147" height="147">
                       </div>
                       <h3 class="h4 card-title">Memperingati Hari Kemerdekaan</h3>
