@@ -235,8 +235,7 @@ body {
   gap: 16px;
 }
 
-.navbar {
-  position: fixed; /* posisi tetap */
+.navbar { 
   top: 0; /* tetap bag atas */
   left: -300px; /* 300 diluar kiri */
   background-color: var(--black);
@@ -317,7 +316,7 @@ body {
   color: var(--charcoal);
   font-size: 2rem;
   padding: 25px;
-  border-radius: var(--radius-circle);
+  border-radius: var(--radius-pill);
   transition: var(--transition-1);
 }
 
@@ -351,7 +350,7 @@ body {
   color: var(--charcoal);
   font-size: 2rem;
   padding: 12px;
-  border-radius: var(--radius-circle);
+  border-radius: var(--radius-10);
   transition: var(--transition-1);
 }
 

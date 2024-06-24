@@ -100,6 +100,10 @@
 
       <!-- bagian about -->
       <section class="about" id="about">
+      <div style="background-color: var(--navot);  ">
+      <marquee behavior="alternate" style="color: var(--white); font-size: 20px; padding-block: 10px;">SELAMAT DATANG DI WEB SMPN 160 JAKARTA 🏫</marquee>
+      </div>
+
         <div class="container">
 
           <figure class="about-banner"> <!-- img about -->
@@ -207,7 +211,7 @@
                 <div class="card-content">
 
                   <h3 class="h3">
-                    <a href="#" class="card-title">PENGUMUMAN KELULUSAN TAHUN PELAJARAN 2021-2022</a>
+                    <a class="card-title">PENGUMUMAN KELULUSAN TAHUN PELAJARAN 2021-2022</a>
                   </h3>
 
                   <p class="card-text">
@@ -235,7 +239,7 @@
                 <div class="card-content">
 
                   <h3 class="h3">
-                    <a href="#" class="card-title">Presiden Jokowi: Kesehatan & pendidikan pondasi hadapi era persaingan</a>
+                    <a class="card-title">Presiden Jokowi: Kesehatan & pendidikan pondasi hadapi era persaingan</a>
                   </h3>
 
                   <p class="card-text">
@@ -266,7 +270,7 @@
                 <div class="card-content">
 
                   <h3 class="h3">
-                    <a href="#" class="card-title">Assesmen Sumatif Sekolah (ASS) 2023</a>
+                    <a class="card-title">Assesmen Sumatif Sekolah (ASS) 2023</a>
                   </h3>
 
                   <p class="card-text">
