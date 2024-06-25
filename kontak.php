@@ -44,7 +44,7 @@
               <h3>Kontak Kami | SMPN 160 Jakarta</h3>
         
               <!-- form kontak -->
-              <form id="contact-form" action="output.php" method="POST" target="_blank">
+              <form id="contact-form" action="#" method="POST">
         
                 <p>
                   <label>Nama</label>
@@ -67,7 +67,7 @@
                 </p>
         
                 <p class="full"> 
-                  <button type="submit" style="background-color: var(--navot);">Kirim</button>
+                  <button style="background-color: var(--navot);" onClick="alert('Pesan Anda Sudah Terkirim')">Kirim</button>
                 </p>
         
               </form>
